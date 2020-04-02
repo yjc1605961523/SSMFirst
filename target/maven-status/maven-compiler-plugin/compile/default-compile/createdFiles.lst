@@ -1,0 +1,11 @@
+com\ty\dao\AirQualityIndexMapper.class
+com\ty\service\impl\AirQualityIndexServiceImpl.class
+com\ty\controller\DistrictController.class
+com\ty\config\MyGenerator.class
+com\ty\dao\DistrictMapper.class
+com\ty\service\IDistrictService.class
+com\ty\service\impl\DistrictServiceImpl.class
+com\ty\service\IAirQualityIndexService.class
+com\ty\entity\AirQualityIndex.class
+com\ty\entity\District.class
+com\ty\controller\AirQualityIndexController.class

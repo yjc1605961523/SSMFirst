@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties"></properties>
+    <settings>
+    <setting name="logImpl" value="LOG4J"/>
+        <setting name="autoMappingBehavior" value="FULL"/>
+    </settings>
+    <typeAliases>
+        <package name="com.ty.entity"/>
+    </typeAliases>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+        </plugin>
+    </plugins>
+    <mappers>
+        <package name="com.ty.dao"/>
+    </mappers>
+
+</configuration>
